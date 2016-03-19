@@ -4,7 +4,7 @@ upperBound = int(sys.argv[1]) if len(sys.argv) > 1 else 100
 numberToGuess = random.randint(1, upperBound)
 guess = -1
 numberOfGuesses = 0
-prompt = "Pick a number between 1 and %s:\n" % upperBound
+prompt = "I've chosen a number between 1 and %s. See if you can guess it:\n" % upperBound
 
 while guess != numberToGuess:
     guess = int(raw_input(prompt))

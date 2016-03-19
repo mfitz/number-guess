@@ -1,0 +1,23 @@
+**/.DS_Store
+.idea/
+*.iml
+*.class
+.classpath
+.project
+*.pmd
+*.pmdruleset.xml
+.settings/
+target/
+build/
+bin/
+*~
+.gradle
+
+# Decision made not to hold wrapper scripts in git (esp. jar file)
+gradle/wrapper
+gradlew
+gradlew.bat
+
+# Package Files #
+*.jar
+
